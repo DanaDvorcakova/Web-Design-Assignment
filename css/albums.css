@@ -4,11 +4,6 @@
    color: white;
 }
 
-/* Body style */
-body {
-   font-family: Arial, Helvetica, sans-serif;
-   color: white;
-}
 
 /* Header/logo Title */
 .header {
@@ -52,13 +47,16 @@ text-align: center;
 /* Displayes the flex items horizontally*/
 .row {  
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Footer style */
 .footer {
-  padding: 5px;
+  padding: 50px;
   text-align: center;
-  background: #ddd;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
 
 @media screen and (max-width:600px) {
