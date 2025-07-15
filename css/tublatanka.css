@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 /* Body style */
@@ -10,6 +11,7 @@ body {
 
 /* Header/logo Title */
 .header {
+  padding: 10px;
   text-align: center;
   background-color: black;
   overflow: hidden;
@@ -57,16 +59,30 @@ h3{
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+   background-color: #121111;
   padding: 20px;
   float: left;
+  color: white;
 }
 
 /* Main column */
 .main {   
   flex: 70%;
-  background-color: white;
+  background-color: #282626;
   padding: 20px;
+  color: white;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 img {
@@ -77,7 +93,7 @@ img {
 .footer {
   padding: 50px;
   text-align: center;
-  background: #ddd;
+ background-color: #121111;
 }
 
 /* Back to top button */
@@ -155,7 +171,6 @@ img {
   }
 }
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
    .main {
@@ -187,3 +202,5 @@ img {
   width: 100%;
   }
 }
+
+
