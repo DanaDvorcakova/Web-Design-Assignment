@@ -33,7 +33,7 @@ body {
     padding: 30px;
     border-radius: 8px;
     width: 450px;
-    height: 750px;
+    height: 650px;
 }
 
 form {
@@ -83,6 +83,13 @@ button:hover {
     background-color: black;
     border: none;
     transform: translateY(-10px);
+}
+
+/* Footer style */
+.footer {
+  padding: 50px;
+  text-align: center;
+  color: white;
 }
 
 @media screen and (max-width:600px) {
