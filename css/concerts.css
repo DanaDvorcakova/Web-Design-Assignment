@@ -48,5 +48,10 @@ td {
 background-color:rgba(192, 16, 16, 0.621);
 }
 
-
+/* Footer style */
+.footer {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
 
